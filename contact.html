@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diane Schultze | Contact</title>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <!-- REMIX ICONS -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <div class="floaties" id="floaties"></div>
+
+  <nav>
+    <a class="nav-logo" href="index.html"><span>✦</span> Diane Schultze</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <main class="section fade-in">
+    <div class="section-header">
+      <h2>Let's Connect</h2>
+      <p>I’d love to hear from you, whether it’s about a project, a collaboration, or just saying hi.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Find me here ✿</h3>
+
+        <div class="contact-links">
+
+          <!-- GITHUB -->
+          <a href="https://github.com/DianeSchultze" target="_blank" rel="noreferrer" class="contact-link">
+            <span class="contact-icon"><i class="ri-github-fill"></i></span>
+            <div>
+              <div style="font-size:1rem;">GitHub</div>
+              <div style="font-size:0.8rem;opacity:.7;font-weight:500;">github.com/DianeSchultze</div>
+            </div>
+          </a>
+
+          <!-- LINKEDIN -->
+          <a href="https://www.linkedin.com/in/diane-schultze/" target="_blank" rel="noreferrer" class="contact-link">
+            <span class="contact-icon"><i class="ri-linkedin-box-fill"></i></span>
+            <div>
+              <div style="font-size:1rem;">LinkedIn</div>
+              <div style="font-size:0.8rem;opacity:.7;font-weight:500;">linkedin.com/in/diane-schultze</div>
+            </div>
+          </a>
+
+          <!-- EMAIL -->
+          <a href="mailto:bydianeschultze@gmail.com" class="contact-link">
+            <span class="contact-icon"><i class="ri-mail-fill"></i></span>
+            <div>
+              <div style="font-size:1rem;">Email</div>
+              <div style="font-size:0.8rem;opacity:.7;font-weight:500;">bydianeschultze@gmail.com</div>
+            </div>
+          </a>
+
+        </div>
+
+        <div style="margin-top:24px;padding:20px;background:var(--pink-100);border-radius:var(--radius);border:2px solid var(--pink-200);">
+          <p style="font-size:0.9rem;color:var(--text-mid);font-weight:600;line-height:1.6;">
+            💖 Currently open to opportunities, collaborations, and creative web projects.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>Send a message ✿</h3>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" placeholder="What should I call you?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="your@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" placeholder="What's on your mind?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me everything!" required></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with love by Diane Schultze</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
